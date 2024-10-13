@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .auth-container, .quiz-container, .leaderboard-container {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  form, ul {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 0.5rem;
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4500a5;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    background: #6200ea;
+    color: white;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  li:hover {
+    background: #4500a5;
+  }
+  
+  .leaderboard-container ul {
+    padding-left: 0;
+  }
+  
+  .leaderboard-container li {
+    background-color: #f4f4f9;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .quiz-container {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #6200ea;
+    color: white;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  li:hover {
+    background-color: #4500a5;
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #4500a5;
+  }
+  
+  .profile-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-container h2 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .profile-details p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+  
+  .profile-details strong {
+    color: #6200ea;
+  }
+  
+  .profile-container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-details, .edit-profile {
+    margin-top: 1rem;
+  }
+  
+  input {
+    display: block;
+    margin: 0.75rem auto;
+    padding: 0.5rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #6200ea;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4500a5;
+  }
+  
+  button[style="background-color: red"] {
+    background-color: red;
+    color: white;
+  }
+  
+  button[style="background-color: red"]:hover {
+    background-color: darkred;
+  }
+  
+  /* Add this CSS to your project, either in a CSS file or within style tags in your component file */
+
+  .app-container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
